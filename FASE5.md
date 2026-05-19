@@ -58,7 +58,7 @@ def procesar_recursos(equipo, umbral=UMBRAL_HORAS):
         clasificacion = clasificar_jornada(total, umbral)
         resultados.append((nombre, total, clasificacion))
     return resultados
-
+#modifique nombres
 # Función para imprimir los resultados en tabla alineada
 def imprimir_reporte(resultados):
     """
